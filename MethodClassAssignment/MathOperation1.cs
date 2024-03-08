@@ -1,16 +1,17 @@
-﻿using System;
+using System;
 
 namespace MethodClassAssignment
 {
-    class MathOperation1
+    class MathOperation
     {
-        //A method that takes 2 integers as parameters
-        //One of them is optional by providing a default value
-        public int MathOperation(int i, int j = 1)
+        public void PerformOperation(int firstNumber, int secondNumber)
         {
-            //Multiplication on integers and the result
-            int result = i * j;
-            return result;
+            // Example math operation
+            int result = firstNumber * 2;
+
+            // Display the second integer to the screen
+            Console.WriteLine("The second number is: " + secondNumber);
+
         }
     }
 }
